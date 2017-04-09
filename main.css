@@ -1,5 +1,31 @@
+#About, #Projects, #Resume
+{
+	padding: 2% 2% 2% 5%
+}
+
 h1 
 {
-	color: #00f;
-	font-family: "Comic Sans MS";
+	color: blue;
+	font-family: sans-serif;
+}
+
+ul 
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: black;
+}
+
+li 
+{
+	display: block;
+	color: white;
+	font-size: 2em;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	float: left;
 }
