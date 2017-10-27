@@ -1,25 +1,26 @@
-#About, #Projects, #Resume
-{
-	padding: 2% 2% 2% 5%
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+.navBar li{
+	padding: .5% .5% .5% 5%
 }
 
-h1 
-{
-	color: blue;
-	font-family: sans-serif;
+.navBar li,
+h1 {
+	font-family: 'Quicksand', sans-serif;
 }
 
-ul 
-{
+h1 {
+	color: #09f;
+}
+
+ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: black;
+	background-color: #333;
 }
 
-li 
-{
+li {
 	display: block;
 	color: white;
 	font-size: 2em;
@@ -28,4 +29,29 @@ li
 	padding: 14px 16px;
 	text-decoration: none;
 	float: left;
+}
+
+.title {
+	font-size: 3em;
+}
+
+.social {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: #333;
+  color: #09f;
+  border: 1px solid rgb(38, 79, 107);
+  margin-top: 10px;
+}
+
+.social:hover,
+.social:focus {
+  box-shadow: 4px 2px 2px rgb(38, 79, 107);
+  color: rgb(38, 79, 107);
+  background-color: rgb(209, 207, 212);
 }
